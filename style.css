@@ -1,0 +1,57 @@
+*
+{
+    /* box-sizing: border-box; */
+}
+.my_center
+{
+    margin: 60px auto;
+}
+.my_btn_center
+{
+    /* margin: 0 auto !important; */
+}
+.fermer_header
+{
+    display: flex;
+    background: black;
+    align-items: center;
+    flex-direction: column;
+    
+}
+header{
+    display: flex;
+    justify-content: flex-end; 
+    background: #26A69A;
+    color:#eee;
+    align-self: stretch;
+   
+}
+
+.option
+{
+    font-size: 7vh;
+    text-align: center;
+    padding: 1vh;
+    float: right !important;
+    padding: 0.5em;
+}
+.my_button
+{
+    float: right;
+    margin-left:2em 
+}
+.option:hover{
+    background: #eee;
+    color:#26A69A;
+    cursor:pointer
+}
+
+.fermer_header h4
+{
+    display: inline;
+    position: absolute;
+    left:3vh;
+    font-size: 7vh;
+    padding: 1vh;
+    margin-left: 6vh
+}
